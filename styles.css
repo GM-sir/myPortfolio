@@ -1,0 +1,217 @@
+
+*{
+    font-family: Serif;
+    color: #0a0102;
+}    
+header {
+    background-color: white;
+    position: fixed;
+}
+nav {
+    height: 80px;
+ 
+}
+a:hover{
+    
+    background-color:  #0a010242;
+  font-size: 22px;
+}
+button:hover{
+    background-color: #087f83ec;
+   
+}
+.div1{
+    width: 500px;
+    text-align: center;
+}
+.div2{
+    width: 700px;
+            text-align: center;
+            align-items: center;
+            justify-content: space-evenly;
+            display: flex;
+            flex-wrap: wrap;
+  
+}
+
+.pic{
+    border-radius: 25px;
+  
+}
+
+.pic:hover{
+    width: 150px;
+    height: 150px;
+    
+    transition: width 2s, height 2s, transform 2s;
+}
+.bg{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+.text{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    
+    height:400px ;
+    width: 1000px;
+    text-align: center;
+    margin-top: 350px ;
+    margin-left: 25%;
+}
+.social{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 01% 01%;
+    height: 230px;
+    width: 60px;
+    margin-top: 350px;
+    background-color: white;
+    font-size: 25px;
+}
+button{
+    background-color: #16c6cc;
+    color: white;
+    font-family: Serif;
+    text-decoration: none; 
+    
+    border: none;
+    width: 200px;
+    font-size: 5px;
+    border-radius: 10px;
+    
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+
+
+}
+.about{
+    background-color: rgba(226, 223, 223, 0.774);
+    height: 1200px;
+}
+.text2{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    
+    height:300px ;
+    width: 1000px;
+    text-align: center;
+    margin-top: 50px ;
+    margin-left: 25%;
+}
+.undertext{
+    display: flex;
+    
+}
+.know{
+    height: ;
+    width: 40%;
+    margin-left: 250px ;
+    font-size: 1.5rem;
+    
+}
+.skills{
+    
+    margin-left: 200px ;
+}
+.boxs{
+    height: ;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+ 
+}
+.box{
+    height: 40px;
+    width: 120px;
+    background-color: rgba(214, 208, 208, 0.966);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+.bg2{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height:1000px;
+    width: 100%;
+    margin-top: 0%;
+    padding: 3.5%;
+   
+}
+.forms{
+    height: 600px;
+    width: 1000px;
+    background-color: white !important;
+    margin-top: 40px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+form{
+    margin-top: 40px;
+  }  
+
+.form-control{
+   
+    background: rgba(226, 223, 223, 0.493);
+}
+
+.projects{
+    height: 2500px;
+    width: 100%;
+}
+.sections{
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: space-evenly;
+
+}
+.leptop{
+    background-image: url(images/laptop.png);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+}
+.leptus{
+    display: flex;
+    margin-top: 150px;
+
+}
+.leptu{
+    
+    width: 600px;
+    
+    margin-right: 60px;
+}
+.leptus-text{
+    margin-left: 70px;
+}
+.frame{
+    margin-top: 30px;
+    margin-left: 0px;
+    justify-content: center;
+}
+
+.sections{
+    margin-top: 0px;
+}
+@keyframes example {
+    0%   {background-color: #16c6cc; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:#16c6cc; left:0px; top:0px;}
+  }
+  .responsive-vw {
+    font-size: 5vw;
+  }
